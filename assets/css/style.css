@@ -75,14 +75,15 @@ h6 {
 
 header {
     background-image: url(../images/hero-bg-abstract.jpg );
-    
+
 }
 
-.main{
+.main {
     padding-top: 110px;
 }
+
 .main .main-heading {
-    
+
     font-size: 55px;
     font-weight: 700;
 }
@@ -131,8 +132,7 @@ header {
 
 }
 
-.box1:hover,
-h4 {
+.box1:hover h4 {
     color: var(--hovercolor);
 }
 
@@ -265,7 +265,7 @@ h4 {
 }
 
 .row .icon-box .icon3 {
-    color:  #20c997 ;
+    color: #20c997;
     font-size: 35px;
     font-weight: lighter;
 }
@@ -287,48 +287,61 @@ h4 {
     font-size: 35px;
     font-weight: lighter;
 }
+
 .row .icon-box:hover {
     background-color: #0dcaf0;
-    
+
 }
-.row .icon-box:hover .icon1{
+
+.row .icon-box:hover .icon1 {
     color: var(--background-color);
 }
+
 .row .ie2:hover {
     background-color: rgb(255 127 80);
-    
+
 }
-.row .icon-box:hover .icon2{
+
+.row .icon-box:hover .icon2 {
     color: var(--background-color);
 }
+
 .row .ie3:hover {
     background-color: #20c997;
-    
+
 }
-.row .icon-box:hover .icon3{
+
+.row .icon-box:hover .icon3 {
     color: var(--background-color);
 }
+
 .row .ie4:hover {
     background-color: #df1529;
-    
+
 }
-.row .icon-box:hover .icon4{
+
+.row .icon-box:hover .icon4 {
     color: var(--background-color);
 }
+
 .row .ie5:hover {
     background-color: #6610f2;
-    
+
 }
-.row .icon-box:hover .icon5{
+
+.row .icon-box:hover .icon5 {
     color: var(--background-color);
 }
+
 .row .ie6:hover {
     background-color: #f3268c;
-    
+
 }
-.row .icon-box:hover .icon6{
+
+.row .icon-box:hover .icon6 {
     color: var(--background-color);
 }
+
 #call-to-action {
     color: white;
     background-color: var(--bluecolor);
@@ -616,23 +629,27 @@ ul li {
     margin-right: 15px;
 }
 
-.form-control{
-   border-radius: 0px !important;
+.form-control {
+    border-radius: 0px !important;
 }
-.accordion-button:not(.collapsed){
-     background-color: var(--bluecolor);
-     color: white !important;
-     box-shadow: none;
-}
-.accordion-body{
+
+.accordion-button:not(.collapsed) {
     background-color: var(--bluecolor);
-     color: white !important;
+    color: white !important;
+    box-shadow: none;
 }
-.accordian-button:hover .accordion-item{
-   background-color: var(--bluecolor);
+
+.accordion-body {
+    background-color: var(--bluecolor);
+    color: white !important;
 }
-.accordion{
-   --bs-accordion-btn-focus-box-shadow:0 0 0 0;
+
+.accordian-button:hover .accordion-item {
+    background-color: var(--bluecolor);
+}
+
+.accordion {
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0;
 }
 
 .info-item h3 {
