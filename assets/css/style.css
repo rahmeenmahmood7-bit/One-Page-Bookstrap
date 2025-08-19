@@ -132,7 +132,7 @@ header {
 }
 
 .box1:hover,
-h4:hover {
+h4 {
     color: var(--hovercolor);
 }
 
